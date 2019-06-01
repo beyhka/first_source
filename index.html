@@ -1,22 +1,108 @@
 <html>
   <header>
-    <title>
-      My first shit
-    </title>
+    <title> My first site</title>
+    <meta charset="utf-8">
   </header>
   <body>
-    Here's the content that does all the trick.
+    
+    <style>
 
-    <a href="index_contact.html">
-      Click Here
-    </a>
+    #contact-info {
+      font-family: helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 70%;
+    }  
+
+    h1 { 
+      font-family: helvetica, sans-serif;
+      font-size: 48px;
+      line-height: 70%;
+      position: fixed;
+      z-index: 5;
+    }
+
+    h3 { 
+      font-family: helvetica, sans-serif;
+      font-size: 26px;
+      line-height: 90%;
+      margin-top: 110px;
+    }
+
+    ul { 
+      font-family: helvetica, sans-serif;
+      font-size: 18px;
+      line-height: 170%;
+      margin-left: -20px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-family: helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 22px;
+      position: relative;
+      top: 20px;
+    }
+
+    #cute-pissy {
+      width: 700px;
+      position: absolute;
+      top: 370px;
+      left: 100px;
+      z-index: 4;
+    }
+
+    #yellow-pissy {
+      width: 800px;
+      position: relative;
+      top: 300px;
+      left: 320px;
+      z-index: 3;
+    }
+
+    #tiny-pissy {
+      width: 800px;
+      position: relative;
+      top: 50px;
+      left: 0px;
+      bottom: 30px;
+      z-index: 2;
+    }
+
+    #container {
+      width: 1000px;
+      margin: auto;
+      border: 1px dashed rgb(145, 145, 145);
+      border-top: 10px solid grey;
+      padding: 30px;
+      margin-top: 30px;
+    }
     
-<head>
-    <title>CSS grouping elements</title>
-    <meta charset="utf-8">
-</head>
-<body>
+    .official-info {
+      background: white;
+      width: 100%;
+      height: 300px;
+      border-top: 1px solid rgb(222, 222, 222);
+      border-bottom: 1px solid rgb(222, 222, 222);
+      overflow-y: auto;
+      overflow-x: hidden;
+      margin-top: 0px;
+    }
+ 
+    #footnote {
+      margin-top: 20px;
+    }
     
+    </style>
+
+
+  </head>
+
+  <div id="container">
+
+  <p id="contact-info"> If you'd like to contact for more information <a href="index_contact.html"> click here. </a> </p>
+
     <h1>All About Cats</h1>
 
     <h3>Why I Love Cats</h3>
@@ -25,16 +111,18 @@
         <li>Cute
         <li>Evil
     </ul>
-    
-    <h3>Official Info on Cats</h3>
-    <p><img src="https://www.kasandbox.org/programming-images/animals/cat.png" width="100"> The cat (Felis catus), also known as the domestic cat or housecat to distinguish it from other felines and felids, is a small domesticated carnivorous mammal that is valued by humans for its companionship and ability to hunt vermin and household pests. Cats have been associated with humans for at least 9,500 years, and are currently the most popular pet in the world. Owing to their close association with humans, cats are now found almost everywhere on Earth.</p>
+    <img id="cute-pissy" src="https://www.kasandbox.org/programming-images/animals/cat.png" alt="Little pissy">
+    <img src="https://graffitiwallpaper.com/pics/listings/269_wide.jpg" id="yellow-pissy">
+    <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_960_720.jpg" id="tiny-pissy">
+    <div class="official-info"><h3>Official Info on Cats</h3>
+    <p>The cat (Felis catus), also known as the domestic cat or housecat to distinguish it from other felines and felids, is a small domesticated carnivorous mammal that is valued by humans for its companionship and ability to hunt vermin and household pests. Cats have been associated with humans for at least 9,500 years, and are currently the most popular pet in the world. Owing to their close association with humans, cats are now found almost everywhere on Earth.</p>
     <p>Cats are similar in anatomy to the other felids, with strong, flexible bodies, quick reflexes, sharp retractable claws, and teeth adapted to killing small prey. As nocturnal predators, cats use their acute hearing and ability to see in near darkness to locate prey. Not only can cats hear sounds too faint for human ears, they can also hear sounds higher in frequency than humans can perceive. This is because cats' usual prey (particularly rodents such as mice) make high frequency noises, so cats' hearing has evolved to pinpoint these faint high-pitched sounds. Cats rely more on smell than taste, and have a vastly better sense of smell than humans.</p>
     <p>Despite being solitary hunters, cats are a social species and use a variety of vocalizations, pheromones and types of body language for communication. These include meowing, purring, trilling, hissing, growling, and grunting.</p>
     <p>Cats have a rapid breeding rate. Under controlled breeding, they can be bred and shown as registered pedigree pets, a hobby known as cat fancy. Failure to control the breeding of pet cats by spaying and neutering and the abandonment of former household pets has resulted in problems caused by large numbers of feral cats worldwide, with a population of up to 60 million of these animals in the United States alone.</p>
-        
+    </div>   
+    <div id="footnote">
     Read more on <a href="http://en.wikipedia.org/wiki/Cat">Wikipedia</a>.
+    </div>
 
 </body>
-</html>
-  </body>
 </html>
